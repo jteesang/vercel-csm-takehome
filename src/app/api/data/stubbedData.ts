@@ -13,19 +13,17 @@ export const stubbedData = [
     React is a library that allows you to create reusable user interfaces using Javascript. However, it doesn't provide the skeletal structure to develop an entire web app.
     Next.js is a framework build on top of React for web development that provides additional features and optimizations such as routing, data fetching, and SEO optimizations that would help with your marketing needs.
 
-    Next.js offer several advantages including:
+    Next.js offers several advantages including:
 
     1. Faster Performance
     Next.js includes built-in components for images, links, and scripts that help pages load faster by abstracting away the complexity of common UI optimizations.
 
     2. SEO Optimization
-    Metadata allows you to define keywords and content of your website resulting in better SEO.
-    Next.js also supports server-side rendering and static asset generation, which pre-renders pages for better SEO and faster load times.
+    Metadata allows you to define keywords and content of your website resulting in better SEO. Next.js also supports server-side rendering and static asset generation, which pre-renders pages for better SEO and faster load times.
     See more here: https://nextjs.org/docs/app/building-your-application/optimizing.
 
     3. Conversion Rate Goals
-    Next.js has built-in support for measuring site analytics using ReportWebVitals or Vercel's managed service.
-    It measures a list of Core Web Vitals to analyze the user experience of a page, which will help with achieving your conversion rate goals.
+    Next.js has built-in support for measuring site analytics using ReportWebVitals or Vercel's managed service. It measures a list of Core Web Vitals to analyze the user experience of a page, which will help with achieving your conversion rate goals.
     
     Next.js provides a comprehensive set of tools to create highly optimized, scalable, SEO-friendly marketing pages. I'd be happy to discuss specific use cases or answer any further questions!
 
@@ -48,8 +46,7 @@ export const stubbedData = [
     - Edge Functions are serverless functions that run on Vercel's Edge Runtime environment for ultra-low latency (no cold starts) and personalization at speed. They run after the cache, so it is ideal for dynamic API responses, personalized content generation or complex server-side logic.
       See more info: https://vercel.com/docs/functions/runtimes/edge-runtime.
 
-    - Serverless Functions on Vercel are any functions implemented as API routes either in Pages Router or App Router. 
-      They are scalable and great for backend logic but may have higher latency due to regional deployments.
+    - Serverless Functions on Vercel are any functions implemented as API routes either in Pages Router or App Router. They are scalable and great for backend logic but may have higher latency due to regional deployments.
 
     - Edge Middleware also run on Vercel's Edge Runtime environment and is designed to modify the incoming request. It runs before the cache so it can provide rewrites or redirects and geolocation-based content delivery.
       See more info: https://vercel.com/docs/functions/edge-middleware/middleware-api.
@@ -198,10 +195,19 @@ export const stubbedData = [
     - Secure Compute to create private connections around your application and connected services
     - Vercel Web Application Firewall allows rule-based controls over your traffic
 
-    I would be more than happy to expand on any of these offerings and discuss any additional features you'd be interested in for your use case.
+    I would be more than happy to facilitate the transition and discuss any additional features you'd be interested in for your use cases.
 
     Kind Regards,
     Julia
+
+    --
+
+    Resources to prepare:
+
+    Prepare a slide deck to summarize the transition -
+    - Write out the differences in Security offerings for their current plan vs. Enteprise plan in a tabular format
+    - Link any keynotes related to Security features at Vercel
+    - Involve product folks on the Security team to offer insight into the future roadmap
     `
   },
   {
