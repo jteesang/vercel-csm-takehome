@@ -14,13 +14,18 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            Get started by editing{" "}
+            Digital Success Take Home {" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
+              by Julia Tseng
             </code>
-            .
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li className="mb-2">
+            Reach out to {" "}
+            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
+              juliamtseng@gmail.com
+            </code>
+            for any questions.
+          </li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
@@ -47,6 +52,13 @@ export default function Home() {
           >
             Read our docs
           </a>
+        </div>
+        <div className="flex gap-4 items-center flex-col sm:flex-row">
+          {Array.from({ length: 8 }, (_, index) => (
+            <a key={index} href={`/questions/${index + 1}`} className="border bg-foreground hover:bg-[#383838] shadow-md p-2 rounded-md text-white">
+              {index + 1}
+            </a>
+        ))}
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
