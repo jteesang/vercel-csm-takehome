@@ -14,7 +14,7 @@ export const Question: React.FC<{data: QuestionProps}> = ({ data }) => {
         <span className="text-lg font-bold">Question:</span><br/>{data.question}
       </p>
       
-      <p className="bg-gray-100 p-4 rounded">
+      <p className="bg-foreground text-background p-4 w-full rounded">
         <span className="text-lg font-bold">Customer Profile:</span>
         <br/>{data.profile}
       </p>

@@ -55,10 +55,13 @@ export default function Home() {
         </div>
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           {Array.from({ length: 8 }, (_, index) => (
-            <a key={index} href={`/questions/${index + 1}`} className="border bg-foreground hover:bg-[#383838] shadow-md p-2 rounded-md text-white">
-              {index + 1}
+            <a key={index} href={`/questions/${index + 1}`} className="border border-solid border-transparent bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] shadow-md p-2 w-16 text-center rounded-md">
+              <span>
+                {index + 1}
+              </span>
             </a>
-        ))}
+          ))}
+
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
